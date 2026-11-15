@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#090910">
+  <meta name="description" content="dr3ambunnii404's DREAMWEFT universe. A private, interactive nonproduction website preview.">
+  <title>dr3ambunnii404 · Enter DREAMWEFT [local preview]</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body class="mode-dream">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="starfield" aria-hidden="true"></div>
+  <div class="site-wrap">
+    <header class="topbar">
+      <a class="wordmark" href="#home" aria-label="dr3ambunnii404, back to home"><span class="mark">✧</span> dr3ambunnii<span class="digits">404</span><span class="cursor">_</span></a>
+      <nav class="main-nav" aria-label="Primary">
+        <a href="#burrow">The Burrow</a>
+        <a href="#atlas">Dream Atlas</a>
+        <a href="#roadmap">Build Log</a>
+      </nav>
+      <span class="local-flag"><span class="signal-dot" aria-hidden="true"></span> LOCAL PREVIEW</span>
+    </header>
+
+    <main id="main">
+      <section class="hero section" id="home" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="small-star">✦</span> 001 // DREAMER ONLINE <span class="dash">/</span> WORLD UNRENDERED</div>
+          <h1 id="hero-title">Some dreams are<br><em>waiting to be woven.</em></h1>
+          <p class="lead">Welcome to <strong>dr3ambunnii404</strong>, the creator behind <strong>DREAMWEFT</strong>: a soft-gothic cyberdream world for art, code, stories, and the things we haven't built yet.</p>
+          <div class="hero-actions"><a class="button button-primary" href="#burrow">Enter the Velvet Burrow <span aria-hidden="true">↗</span></a><a class="button button-outline" href="#atlas">Open the Dream Atlas</a></div>
+          <div class="hero-metadata"><span>✧ <strong>Dream Mode</strong> inspires</span><span>⌘ <strong>Creator Mode</strong> executes</span></div>
+        </div>
+        <div class="hero-visual" aria-hidden="true"><span class="orbit orbit-1"></span><span class="orbit orbit-2"></span><span class="orbit orbit-3"></span><span class="moon">☾</span><div class="hero-gate"><span class="gate-arch"></span><span class="gate-light">✧</span><span class="gate-label">DREAMGATE // 001</span></div><span class="float-star star-a">✦</span><span class="float-star star-b">✧</span><span class="float-star star-c">✳</span><span class="pink-thread"></span></div>
+      </section>
+
+      <div class="ticker" aria-label="Story principle"><span>THE FIRST LAW</span><p>No shared dream shall demand all its dreamers’ thread and leave their own dreams left for dead.</p><span class="ticker-end">✧</span></div>
+
+      <section class="section burrow-section" id="burrow" aria-labelledby="burrow-title">
+        <div class="section-top">
+          <div><div class="eyebrow">SCENE_001 / ENTER THE SANCTUARY</div><h2 id="burrow-title">The <em>Velvet Burrow</em></h2><p class="section-intro">One little world, built first. Explore the three test objects and switch how the room feels. This is working prototype art, not the finished environment.</p></div>
+          <div class="mode-control" role="group" aria-label="Scene mode"><button id="mode-dream" type="button" class="mode-button active" aria-pressed="true">☾ Dream Mode</button><button id="mode-creator" type="button" class="mode-button" aria-pressed="false">⌘ Creator Mode</button></div>
+        </div>
+        <div class="scene-shell">
+          <div class="scene-topline"><span><span class="alive-dot" aria-hidden="true"></span> <span id="mode-status">DREAM MODE / ATMOSPHERE ONLINE</span></span><span>ENV // 001 <span class="decor-divider">✧</span> 1600×900 TEST SCENE</span></div>
+          <div class="scene-frame">
+            <img class="scene-image" src="assets/velvet-burrow-graybox.png" alt="" draggable="false">
+            <div class="scene-overlay" aria-hidden="true"></div>
+            <div class="scene-stars" aria-hidden="true"><span>✧</span><span>✦</span><span>✧</span></div>
+            <div class="scene-hotspots" aria-label="Scene objects">
+              <button type="button" class="scene-hotspot hotspot-mirror" data-object="mirror" aria-label="Open Dreamglass Mirror panel"><span aria-hidden="true">✦</span><span class="hotspot-tip">MIRROR</span></button>
+              <button type="button" class="scene-hotspot hotspot-terminal" data-object="terminal" aria-label="Open Thread Terminal panel"><span aria-hidden="true">⌘</span><span class="hotspot-tip">TERMINAL</span></button>
+              <button type="button" class="scene-hotspot hotspot-console" data-object="console" aria-label="Open Ribbonline Console panel"><span aria-hidden="true">◇</span><span class="hotspot-tip">CONSOLE</span></button>
+            </div>
+            <div class="scene-watermark">VISUAL GRAYBOX // NOT FINAL ART</div>
+          </div>
+          <div class="scene-caption"><span>✧ Explore the room <strong>or</strong> use the labeled doors below.</span><span>3 interactive objects <span aria-hidden="true">·</span> 6 provisional zones</span></div>
+        </div>
+        <div class="door-grid" aria-label="Explore objects">
+          <button class="door-card" type="button" data-object="mirror"><span class="door-number">01 / IDENTITY</span><span class="door-icon" aria-hidden="true">✧</span><span class="door-title">Dreamglass Mirror</span><span class="door-text">Who is dr3ambunnii404?</span><span class="door-arrow" aria-hidden="true">↗</span></button>
+          <button class="door-card" type="button" data-object="terminal"><span class="door-number">02 / BUILD</span><span class="door-icon" aria-hidden="true">⌘</span><span class="door-title">Thread Terminal</span><span class="door-text">See what we're building.</span><span class="door-arrow" aria-hidden="true">↗</span></button>
+          <button class="door-card" type="button" data-object="console"><span class="door-number">03 / EXPLORE</span><span class="door-icon" aria-hidden="true">◇</span><span class="door-title">Ribbonline Console</span><span class="door-text">Find the stories and worlds.</span><span class="door-arrow" aria-hidden="true">↗</span></button>
+        </div>
+      </section>
+
+      <section class="section atlas-section" id="atlas" aria-labelledby="atlas-title">
+        <div class="section-top"><div><div class="eyebrow">02 // LIVING DREAM ATLAS / VISUAL TEASER</div><h2 id="atlas-title">The <em>Dream Atlas</em></h2><p class="section-intro">Explore a tiny, truthful sample of our world records. <strong>Confirmed</strong> is different from <strong>proposed</strong>, and this preview never changes canon.</p></div><div class="atlas-halo" aria-hidden="true">✺</div></div>
+        <div class="atlas-content">
+          <div class="atlas-list" role="group" aria-label="Atlas records">
+            <button class="atlas-entry selected" type="button" data-entry="dreamweft" aria-pressed="true"><span class="record-glyph" aria-hidden="true">✧</span><span><strong>DREAMWEFT</strong><small>Universe</small></span><span class="status-tag confirmed">CONFIRMED</span></button>
+            <button class="atlas-entry" type="button" data-entry="burrow" aria-pressed="false"><span class="record-glyph" aria-hidden="true">⌂</span><span><strong>The Velvet Burrow</strong><small>Environment</small></span><span class="status-tag confirmed">CONFIRMED</span></button>
+            <button class="atlas-entry" type="button" data-entry="bunnii" aria-pressed="false"><span class="record-glyph" aria-hidden="true">♡</span><span><strong>bunnii.exe</strong><small>Protagonist · working name</small></span><span class="status-tag working">WORKING</span></button>
+            <button class="atlas-entry" type="button" data-entry="shared" aria-pressed="false"><span class="record-glyph" aria-hidden="true">⟡</span><span><strong>The Shared Dreamworld</strong><small>Descriptive story space</small></span><span class="status-tag descriptive">DESCRIPTIVE</span></button>
+            <button class="atlas-entry" type="button" data-entry="observatory" aria-pressed="false"><span class="record-glyph" aria-hidden="true">✳</span><span><strong>The Unwritten Observatory</strong><small>Unapproved location concept</small></span><span class="status-tag proposed">PROPOSED</span></button>
+          </div>
+          <article class="atlas-detail" aria-live="polite" aria-atomic="true">
+            <div class="detail-topline"><span id="detail-kind">UNIVERSE RECORD</span><span id="detail-status" class="status-tag confirmed">CONFIRMED</span></div>
+            <div class="detail-sigil" aria-hidden="true" id="detail-sigil">✧</div>
+            <h3 id="detail-title">DREAMWEFT</h3>
+            <p id="detail-description">The interconnected original dreamworld universe created by dr3ambunnii404. A place for imagined futures, stories, art and experimentation.</p>
+            <div class="detail-foot"><span id="detail-source">SOURCE // PROJECT CONTEXT v0.1</span><span>ATLAS // PREVIEW ONLY</span></div>
+          </article>
+        </div>
+        <p class="atlas-note">✦ Atlas Slice A is authorized separately as a <strong>nonproduction experiment</strong>. This miniature browser view is a preview, not a completed Atlas handoff or a canonical database.</p>
+      </section>
+
+      <section class="section vision-section" id="vision" aria-labelledby="vision-title">
+        <div class="vision-copy"><div class="eyebrow">VISUAL NORTH STAR / CONCEPT BOARD</div><h2 id="vision-title">This is the <em>dream</em>.<br>We build toward it.</h2><p>The original Velvet Burrow concept already gives us a direction: black velvet, luminous pink, lilac, icy blue, dreamy gothic architecture and a cozy space for creation.</p><p>We'll replace the graybox artwork a piece at a time <strong>after</strong> we validate and approve production assets.</p><span class="pill">REFERENCE IMAGE · NOT THE LIVE SCENE</span></div><figure class="vision-figure"><img src="assets/vision-reference.webp" alt="Original Velvet Burrow concept board showing a lavish pink-and-purple gothic cyberdream apartment and labeled areas." loading="lazy"><figcaption>Existing concept art · visual direction only</figcaption></figure>
+      </section>
+
+      <section class="section roadmap-section" id="roadmap" aria-labelledby="roadmap-title">
+        <div class="section-top"><div><div class="eyebrow">HQ // BUILD-FIRST DEVELOPMENT</div><h2 id="roadmap-title">Build first. <em>Upgrade as we go.</em></h2><p class="section-intro">No more waiting for a perfect universe before we can click something. Here's our working progression, with evidence and approvals kept honest.</p></div></div>
+        <div class="roadmap-grid">
+          <article class="milestone done"><div class="milestone-top"><span>01 // FOUNDATION</span><span class="milestone-state">✓ DONE</span></div><h3>The dream has a name.</h3><p>dr3ambunnii404, DREAMWEFT, Velvet Burrow, visual direction, First Law and organized project files.</p></article>
+          <article class="milestone done"><div class="milestone-top"><span>02 // GRAYBOX</span><span class="milestone-state">✓ DELIVERED</span></div><h3>The room is clickable.</h3><p>Three-object prototype delivered; 197 assertions recorded as passes. Acceptance testing is not finished.</p></article>
+          <article class="milestone active"><div class="milestone-top"><span>03 // VERIFY</span><span class="milestone-state">◌ NEXT GATE</span></div><h3>Make it usable everywhere.</h3><p>Fresh regression, physical phone, keyboard, real screen readers, native 200% zoom, safe-area testing.</p></article>
+          <article class="milestone"><div class="milestone-top"><span>04 // PRODUCE</span><span class="milestone-state">LOCKED</span></div><h3>Give the room its real glow.</h3><p>Separate Gate B approval; original artwork, accessible production components, real portfolio content.</p></article>
+          <article class="milestone"><div class="milestone-top"><span>05 // LAUNCH</span><span class="milestone-state">FUTURE</span></div><h3>Open a public doorway.</h3><p>GitHub, deploy preview, final quality checks, domain/hosting, then explicit release approval.</p></article>
+          <article class="milestone"><div class="milestone-top"><span>06 // EXPAND</span><span class="milestone-state">FUTURE</span></div><h3>Build the next dream.</h3><p>More stories, projects, rooms, linked worlds and collaborative spaces, only when actually buildable.</p></article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer"><div><strong>✧ dr3ambunnii404</strong><span> / DREAMWEFT</span></div><p>Dream Mode inspires. Creator Mode executes.</p><small>NONPRODUCTION LOCAL PREVIEW · NO ACCOUNTS, PRIVATE DATA OR LIVE AGENTS</small></footer>
+  </div>
+
+  <dialog class="object-dialog" id="object-dialog" aria-labelledby="dialog-title" aria-describedby="dialog-description">
+    <div class="dialog-header"><span class="eyebrow" id="dialog-code">SCENE_001 / OBJECT</span><button type="button" class="close-button" id="dialog-close" aria-label="Close panel">✕ <span>CLOSE</span></button></div>
+    <div class="dialog-body"><div class="dialog-mark" id="dialog-mark" aria-hidden="true">✧</div><h2 id="dialog-title">Object name</h2><p id="dialog-description"></p><div class="dialog-lines" id="dialog-lines"></div><div class="dialog-actions" id="dialog-actions"></div></div>
+    <div class="dialog-footer">LOCAL / DEMO DATA ONLY <span>✧ DREAMWEFT.OS</span></div>
+  </dialog>
+</body>
+</html>
